@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<title>Cisco Live 2023</title>
+
+	<!-- Viewport for Responsivity -->
+	<!-- <meta name="viewport"
+		content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+
+    <meta name="description"
+		content="Cisco Live 2023">
+
+	 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/radio.css">
+</head>
+
+<body>
+	<div id="wrap">
+
+		<!-- Site header -->
+		<header id="header">
+			<div class="container-fluid">
+				<div class="inner">
+					<div class="row">
+						<div class="col-4">
+							<a href="#" id="logo">
+								<img src="images/cisco_live.png" width="25%">
+							</a>
+						</div>
+						<div class="col-8">
+							<!-- <nav>
+								<ul id="main-menu" class="m-0">
+									<li><a href="#" class="usage">Home</a></li>
+									<li><a href="admin.html" target="_blank">Admin</a></li>
+								</ul>
+							</nav> -->
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Site content -->
+		<div id="content">
+			<h4 class="text-center my-5">CISCO LIVE<br /> 06/01/23 - 06/30/23 <br /> <strong style="color: #fc911f"
+					;>MANDALAY BAY CONVENTION RESORT - LEVEL 1 - LAS VEGAS, NV</strong> </h4>
+			<section id="map-section" class="inner over">
+				<div class="editor-window">
+					<div class="editor-body">
+						<code>
+								{<br>
+								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
+								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
+								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
+								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;...<br>
+								}
+							</code>
+					</div>
+				</div>
+
+				<div class="map-container">
+					<div id="mapplic"></div> <!-- Map -->
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="cart_btn">
+		<a href="#" data-toggle="modal" data-target="#exampleModalCenter"><span class="pr-2"><img
+					src="images/preferences.png" width="20"></span>My Preferences</a>
+	</div>
+	<div class="help_btn">
+		<a href="#" data-toggle="modal" data-target="#exampleModalCenterHelp"><span class="pr-2"><img
+					src="images/help.svg" width="35"></span>Help</a>
+	</div>
+
+	<div class="site_modal">
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+			aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h6 class="modal-title" id="exampleModalLongTitle">My Booth Preferences</h6>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">
+								<img src="images/close.svg" />
+							</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<ul class="cart_list">
+							<li>
+								Booth 1
+								<div class="float-right">
+									<a href="#" class="d-inline-block trash-ico">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+									</a>
+									<a href="#" class="d-inline-block float-right">
+										<img src="images/drag-and-drop.svg" width="9">
+									</a>
+								</div>
+							</li>
+							<li>Booth 2
+								<div class="float-right">
+									<a href="#" class="d-inline-block trash-ico">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+									</a>
+									<a href="#" class="d-inline-block float-right">
+										<img src="images/drag-and-drop.svg" width="9">
+									</a>
+								</div>
+							</li>
+							<li>Booth 3
+								<div class="float-right">
+									<a href="#" class="d-inline-block trash-ico">
+										<i class="fa fa-trash" aria-hidden="true"></i>
+									</a>
+									<a href="#" class="d-inline-block float-right">
+										<img src="images/drag-and-drop.svg" width="9">
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="modal-footer text-center">
+						<button type="button" class="btn btn-primary m-auto btn_preferences">Submit Preferences</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModalCenterHelp" tabindex="-1" role="dialog"
+			aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h6 class="modal-title" id="exampleModalLongTitle">Help</h6>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">
+								<img src="images/close.svg" />
+							</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p>Use the interactive map to select your top three preferred booth spaces. Hover over a space
+							to see more details about
+							it, select add to preferences to add to your preferences. Select My preferences menu in the
+							upper right to delete or re
+							arrange your selections</p>
+					</div>
+					<div class="modal-footer text-center">
+						<button type="button" class="btn btn-primary m-auto btn_preferences">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/csvparser.js"></script> <!-- Required for CSV Support -->
+	<script type="text/javascript" src="mapplic/mapplic.js"></script>
+	<!-- bootstrap 4 -->
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var css = '.mapplic-filtered svg [id^=landmark] > * {opacity: 1 !important; }';
+
+			var map = $('#mapplic').mapplic({
+				source: 'map.json',
+				customcss: css,
+				sidebar: true,
+				sidebartoggle: true,
+				alphabetic: true,
+				height: 560,
+				developer: false,
+				searchdescription: true,
+				searcheverywhere: true,
+				animations: true,
+				minimap: false,
+				marker: 'hidden',
+				fillcolor: false,
+				fullscreen: false,
+				thumbholder: true,
+				maxscale: 3
+
+			}).data('mapplic');
+
+			var jsonFile = fopen('map.json', 'w');
+			// FETCHING DATA FROM JSON FILE
+			$.getJSON("map.json",
+				function (data) {
+					var dataJson = data;
+					var locations = dataJson.levels[0].locations;
+					// console.log(locations, "--json--")
+					// ITERATING THROUGH OBJECTS
+					$.each(locations, function (key, row) {
+
+						//CONSTRUCTION OF ROWS HAVING
+						// DATA FROM JSON OBJECT
+						if (row.id) {
+							row.preference = 0;
+							console.log(row.id, "--preference--", row.preference);
+
+						}
+					});
+
+					if (json_decode(dataJson) != null) {
+						fwrite(jsonFile, dataJson);
+						fclose(jsonFile);
+						console.log("json writed successfully")
+					}
+					else {
+						console.log("invalid JSON, handle the error");
+					}
+
+				});
+
+			// 	$str = json_encode($arr);
+			// //now send evrything to ur data.json file using folowing code
+			// if (json_decode($str) != null) {
+			// 	$file = fopen('data.json', 'w');
+			// 	fwrite($file, $str);
+			// 	fclose($file);
+			// }
+			// else {
+			// 	//  invalid JSON, handle the error 
+			// }
+		});
+	</script>
+</body>
+
+</html>

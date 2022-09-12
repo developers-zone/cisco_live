@@ -1,0 +1,44 @@
+.heading {
+  text-align: center;
+  font-size: 0.8em;
+}
+.center-align {
+  width: 85%;
+  height: 20%;
+  /* position: absolute; */
+  display: table;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+label {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  background-color: #454545;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+input[type="radio"]:checked + label {
+  background-color: #fc911f;
+}
+
+.center-align.booth_list ul li {
+  list-style: none;
+  display: inline-block;
+  width: 32%;
+}
+.center-align.booth_list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.booth_list button {
+  font-size: inherit;
+}

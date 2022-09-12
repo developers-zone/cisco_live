@@ -1,0 +1,336 @@
+{
+  "mapwidth": "1000",
+  "mapheight": "500",
+  "defaultstyle": "light",
+  "styles": [
+    {
+      "class": "light",
+      "hover": { "fill": "#f4f4f4" },
+      "active": { "fill": "#fff" }
+    },
+    {
+      "class": "dark",
+      "hover": { "fill": "#0293e6" },
+      "active": { "fill": "#2ea5e8" }
+    }
+  ],
+  "categories": [
+    {
+      "id": "location",
+      "title": "Location",
+      "about": "Location Find",
+      "icon": "<i class=\"fas  fa-map-marker\"></i>",
+      "color": "#FF9595",
+      "style": "dark"
+    }
+  ],
+  "levels": [
+    {
+      "id": "ground-floor",
+      "title": "Ground Floor",
+      "map": "maps/map-3_05082022.svg",
+      "minimap": "maps/mall/mall-ground-mini.jpg",
+      "show": "true",
+      "locations": [
+        {
+          "id": "MLOC-1-2",
+          "title": "MLOC 1.2",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Dimensions are usually drawn between the walls to specify room sizes and wall lengths.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "style": "dark",
+          "x": "0.14",
+          "y": "0.14",
+          "zoom": "2",
+          "preference": 1
+        },
+        {
+          "id": "MLOC-59",
+          "title": "MLOC 59",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Dimensions are usually drawn between the walls to specify room sizes and wall lengths.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-disabled\">Add To Preference</button><br><small>* Reserved only for gold packages.</small>",
+          "category": "location",
+          "style": "dark",
+          "x": "0.28",
+          "y": "0.22",
+          "zoom": "2",
+          "preference": 0
+        },
+        {
+          "id": "MLOC-1-3",
+          "title": "MLOC 1.3",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><strong>On Hold</strong><br><small>* Reserved only for gold packages.</small>",
+          "category": "location",
+          "style": "dark",
+          "x": "0.2249",
+          "y": "0.2216",
+          "zoom": "1"
+        },
+        {
+          "id": "MLOC-4",
+          "title": "MLOC 4",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.13",
+          "y": "0.39",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-1-4",
+          "title": "MLOC 1.4",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.36",
+          "y": "0.41",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-68-2",
+          "title": "MLOC 68.2",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Dimensions are usually drawn between the walls to specify room sizes and wall lengths.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "style": "dark",
+          "x": "0.36",
+          "y": "0.28",
+          "zoom": "2"
+        },
+        {
+          "id": "Path_3",
+          "title": "Path 3",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "style": "dark",
+          "fill": "red",
+          "x": "0.35",
+          "y": "0.16",
+          "zoom": "3"
+        },
+        {
+          "id": "MLOC-5",
+          "title": "MLOC 5",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><strong>On Hold</strong>",
+          "category": "location",
+          "x": "0.25",
+          "y": "0.38",
+          "zoom": "2"
+        },
+        {
+          "id": "Rectangle_9",
+          "title": "Rectangle 9",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.35",
+          "y": "0.18",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-157",
+          "title": "MLOC 157",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.80",
+          "y": "0.80",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-159",
+          "title": "MLOC 159",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.77",
+          "y": "0.28",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-160",
+          "title": "MLOC 160",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.76",
+          "y": "0.18",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-47",
+          "title": "MLOC 47",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.42",
+          "y": "0.32",
+          "zoom": "3"
+        },
+        {
+          "id": "MLOC-123",
+          "title": "MLOC 123",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.68",
+          "y": "0.32",
+          "zoom": "3"
+        },
+        {
+          "id": "MLOC-48",
+          "title": "MLOC 48",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.41",
+          "y": "0.05",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-49",
+          "title": "MLOC 49",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.45",
+          "y": "0.05",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-50",
+          "title": "MLOC 50",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.57",
+          "y": "0.06",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-107",
+          "title": "MLOC 107",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.65",
+          "y": "0.04",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-108",
+          "title": "MLOC 107",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.70",
+          "y": "0.04",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-160",
+          "title": "MLOC 160",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.75",
+          "y": "0.18",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-158",
+          "title": "MLOC 158",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.78",
+          "y": "0.37",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-155",
+          "title": "MLOC 155",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.81",
+          "y": "0.55",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-156",
+          "title": "MLOC 156",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.81",
+          "y": "0.67",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-157",
+          "title": "MLOC 157",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.80",
+          "y": "0.76",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-154",
+          "title": "MLOC 154",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.69",
+          "y": "0.83",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-153",
+          "title": "MLOC 153",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.72",
+          "y": "0.73",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-152",
+          "title": "MLOC 152",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.64",
+          "y": "0.73",
+          "zoom": "2"
+        },
+        {
+          "id": "MLOC-149",
+          "title": "MLOC 149",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.73",
+          "y": "0.56",
+          "zoom": "3"
+        },
+        {
+          "id": "MLOC-148",
+          "title": "MLOC 148",
+          "about": "Lorem ipsum dolor sit amet.",
+          "description": "<p>Recognizing the need is the primary condition for design.</p><div class=\"center-align booth_list\"><button type=\"button\" class=\"btn btn-primary btn_preferences\">Add To Preference</button></div>",
+          "category": "location",
+          "x": "0.68",
+          "y": "0.59",
+          "zoom": "3"
+        }
+      ]
+    }
+  ]
+}
